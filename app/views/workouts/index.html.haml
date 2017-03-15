@@ -3,3 +3,15 @@
 %h2 Workouts
 
 %h3 Make New Workout
+
+-# remote: true makes form do an ajax request instead of reloading the page.  Rails natrually defaults to false.
+= form_for @workout, remote: true do |f|
+  = f.text_field :name
+  = f.text_field :apt_time
+  = f.submit 'Make Workout'
+
+-# create a div with id workouts
+#workouts
+  = render 'workouts'
+
+-# create a create.js.haml file to handle the response of the ajax req and populate it with a new list of workouts

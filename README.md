@@ -1,25 +1,6 @@
-# README
+# CalReact
+## Simple app for tracking workouts
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Commits for Study Group:
+[Make new workout & use AJAX ] (https://github.com/LNA/calreact/commit/5daba2d8978e974f1cac41432907ada39f23f37b)
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# calreact
